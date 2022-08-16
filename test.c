@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 //交换两个数的函数
-//void swap1(int x, int y) //swap1被调用的时候形参是实参的一份临时拷贝，改变形参不能影响实参
+//void swap1(int x, int y) //swap1被调用的时候形参是实参的一份临时拷贝，改变形参不能影响实参  传值调用
 //{
 //	int temp = 0;
 //	temp = y; 
 //	y = x;
 //	x = temp; //将a,b地址所指的值进行交换操作
 //}
-//void swap2(int* x, int* y) //定义两个指针接收a,b的地址
+//void swap2(int* x, int* y) //定义两个指针接收a,b的地址 传址调用
 //{
 //	int temp = 0;
 //	temp = *y; 
