@@ -77,3 +77,47 @@
 //	}
 //	return 0;
 //}
+
+
+//int binary_search(int* a, int k, int s) //数组传参只传递数组第一个元素的地址
+//{
+//	int left = 0;
+//	int right = s - 1;
+//	while (left <= right)
+//	{
+//		int mid = (left + right) / 2;
+//		if (a[mid] < k )
+//		{
+//			left = mid + 1;
+//		}
+//		else if (a[mid] > k)
+//		{
+//			right = mid - 1;
+//		}
+//		else
+//		{
+//			return mid;
+//		}
+//	}
+//	return -1;
+//		
+//}
+//
+//
+//int main()
+//{
+//	int arr[] = {1,2,3,4,5,6,7,8,9,10};
+//	int key = 0;
+//	scanf("%d", &key);
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	//找到了就返回找到的位置的下标
+//	//找不到返回-1
+//	int ret = binary_search(arr, key, sz);
+//	if (-1 == ret)
+//	{
+//		printf("找不到");
+//	}
+//	else
+//		printf("找到了，下标为：%d", ret);
+//	return 0;
+//}
