@@ -57,3 +57,26 @@
 //}
 
 
+//判断1000-2000年之间的闰年
+
+
+//int leap_year(int y)
+//{
+//	if (0 != y % 4 || (0 == y % 4 && 0 != y % 100))
+//		return 1;
+//	else 
+//		return 0;
+//}
+//
+//int main()
+//{
+//	int year = 0;
+//	for (year = 1000; year <= 2000; year++)
+//	{
+//		if (leap_year(year))
+//		{
+//			printf("%d ", year);
+//		}
+//	}
+//	return 0;
+//}
