@@ -121,3 +121,49 @@
 //		printf("找到了，下标为：%d", ret);
 //	return 0;
 //}
+
+//函数的嵌套调用和链式访问
+
+
+//void test3()
+//{
+//	printf("zz");
+//}
+//void test2()
+//{
+//	test3();
+//}
+//int main()
+//{
+//	test2(); //函数嵌套
+//	return 0;
+//}
+//#include <string.h>
+//int main()
+//{
+//	printf("%d", strlen("zzzzzzz"));//链式访问
+//
+//}
+
+//函数的定义和声明
+//int add(int, int); //函数的声明
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	printf("%d", add(a, b));
+//	return 0;
+//}
+//
+//int add(int x, int y) //函数的定义
+//{
+//	return x + y;
+//}
+
+//#include "add.h" //引用自定义头文件
+//int main()
+//{
+//	int a = 10, b = 20;
+//	printf("%d", add(a, b)); //引用自定义头文件中的函数
+//	return 0;
+//}
